@@ -1,0 +1,45 @@
+{
+  "name": "@stovo-team/stovo-connector",
+  "version": "0.1.0",
+  "description": "Local companion connector bridging Stovo Messenger & Insight with local AI agents (Codex CLI)",
+  "type": "module",
+  "main": "src/main.mjs",
+  "bin": {
+    "stovo-connector": "./bin/stovo-connector.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "fixtures",
+    "config.example.json",
+    "requirements.example.toml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/main.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stovo-team/stovo-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stovo-team/stovo-connector/issues"
+  },
+  "homepage": "https://github.com/stovo-team/stovo-connector#readme",
+  "keywords": [
+    "stovo",
+    "stovo-connector",
+    "codex",
+    "bridge",
+    "insight",
+    "messenger",
+    "ai-agent"
+  ],
+  "author": "Stovo Team",
+  "license": "Apache-2.0"
+}
